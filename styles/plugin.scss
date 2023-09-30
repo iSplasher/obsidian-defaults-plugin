@@ -1,0 +1,46 @@
+@use "./variables"as v;
+
+
+.plugin-name-modal {
+
+    &.plugin-name-error {
+        h2 {
+            color: var(--text-error);
+        }
+
+
+        .plugin-name-error-details {}
+
+    }
+
+}
+
+.plugin-name-indent {
+    padding-inline-start: 1rem;
+}
+
+.plugin-name-settings {
+
+    @mixin plugin-name-control {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+
+        * {
+            flex: 1;
+        }
+    }
+
+
+    .plugin-name-wide-control {
+        @include plugin-name-control;
+        width: 100%;
+    }
+
+    .plugin-name-expanded-control {
+        @include plugin-name-control;
+        flex: 1;
+    }
+
+
+}

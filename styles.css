@@ -1,0 +1,25 @@
+/* styles/plugin.scss */
+.plugin-name-modal.plugin-name-error h2 {
+  color: var(--text-error);
+}
+.plugin-name-indent {
+  padding-inline-start: 1rem;
+}
+.plugin-name-settings .plugin-name-wide-control {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+.plugin-name-settings .plugin-name-wide-control * {
+  flex: 1;
+}
+.plugin-name-settings .plugin-name-expanded-control {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  flex: 1;
+}
+.plugin-name-settings .plugin-name-expanded-control * {
+  flex: 1;
+}

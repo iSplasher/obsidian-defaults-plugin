@@ -1,0 +1,10 @@
+{
+	"id": "defaults",
+	"name": "Defaults",
+	"version": "0.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A plugin and settings repository for Obsidian vaults.",
+	"author": "iSplasher",
+	"authorUrl": "https://github.com/iSplasher/obsidian-defaults-plugin",
+	"isDesktopOnly": false
+}

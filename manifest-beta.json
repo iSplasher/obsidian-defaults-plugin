@@ -1,0 +1,10 @@
+{
+	"id": "template",
+	"name": "Template",
+	"version": "0.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "An Obsidian template plugin.",
+	"author": "iSplasher",
+	"authorUrl": "https://github.com/iSplasher/obsidian-template-plugin",
+	"isDesktopOnly": false
+}
